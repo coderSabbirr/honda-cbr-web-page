@@ -1,0 +1,64 @@
+header {
+    background-color: #264653;
+    width: 100%;
+    color: white;
+}
+.Heading {
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: 0px;
+}
+@media (max-width:768px) {
+    .Heading {
+      font-size: 36px;
+    }
+  }
+.p-head {
+color:#E0E0E0;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0px;
+}
+.link-button {
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0;
+    background-color: #E76F51;
+}
+.Feture-heading {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0px;
+    
+}
+.feture-s {
+    color:  #E76F51;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 0px;
+    
+}
+@media (max-width:768px) {
+    .Feture-heading {
+      font-size: 36px;
+    }
+  }
+
+  .overly-gray {
+    filter: grayscale(100%);
+  }
+  
+  @media (max-width:768px) {
+    .feture-bike img {
+      margin-bottom: 85px !important;
+    }
+    }
