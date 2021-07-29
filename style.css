@@ -2,6 +2,8 @@ body {
   overflow-x: hidden !important;
 }
 
+ /* Header section start */
+
 header {
   background-color: #264653;
   width: 100%;
@@ -30,18 +32,23 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
 }
+ /* modal part */
+
 .modal-title {
   color: black;
   font-size: 20px;
 
 }
+
 .modal-t {
   color: red;
   font-size: 18px;
 }
+
 .modal-p {
   color: #090101;
 }
+
 .link-button {
   color: white;
   font-weight: 600;
@@ -50,9 +57,12 @@ header {
   text-transform: uppercase;
   border-radius: 10px;
   border: 0;
-  background-color: #E76F51;
+  background-color: #e46600;
 }
 
+/* Header section end */
+
+/* Fetured Bikes Part start */
 .feture-b-group {
   padding-top: 20px;
 }
@@ -90,6 +100,9 @@ header {
   }
 }
 
+/* Fetured Bikes Part end */
+
+/* Customer Feedback  part start */
 .review-sec {
   padding-top: 5rem;
 }
@@ -134,16 +147,19 @@ header {
   line-height: 24px;
   letter-spacing: 0.20000000298023224px;
 }
+/* Customer Feedback  part end */
 
+/* Frequently Q&A part start */
 .freq-sec {
   margin-top: 8rem !important;
   height: 630px;
   width: auto;
-  
+
 }
+
 @media (max-width:768px) {
   .freq-sec {
-    height:auto !important;
+    height: auto !important;
   }
 }
 
@@ -159,6 +175,7 @@ header {
 .freq-s {
   color: #E76F51;
 }
+
 
 .accordion-item {
   border: 1px solid #D5E5FB !important;
@@ -180,7 +197,9 @@ header {
     margin-top: 40px;
   }
 }
+/* Frequently Q&A part end */
 
+/* bike gallary part */
 .card-b {
   border: 1px solid #D5E5FB !important;
 }
@@ -189,3 +208,5 @@ header {
   color: #042041;
   ;
 }
+
+/************ End **************/
