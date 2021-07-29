@@ -209,4 +209,17 @@ header {
   ;
 }
 
+/* footer  */
+.footer-sec {
+  margin-top:70px ;
+  width: auto;
+  height: 300px;
+} 
+f
+.footer-sec p {
+  color: gray;
+  padding-top: 200px;
+  
+}
+
 /************ End **************/
