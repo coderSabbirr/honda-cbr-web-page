@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden !important;
 }
+
 header {
   background-color: #264653;
   width: 100%;
@@ -39,9 +40,11 @@ header {
   border: 0;
   background-color: #E76F51;
 }
+
 .feture-b-group {
   padding-top: 20px;
 }
+
 .Feture-heading {
   font-size: 48px;
   font-style: normal;
@@ -74,9 +77,11 @@ header {
     margin-bottom: 85px !important;
   }
 }
+
 .review-sec {
   padding-top: 5rem;
 }
+
 .client {
   color: #E76F51;
 }
@@ -85,62 +90,82 @@ header {
   width: 149px;
   height: 149px;
 }
-.c-heading   {
+
+.c-heading {
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 72px;
   letter-spacing: 0em;
 }
+
 @media (max-width:768px) {
-  .c-heading  {
+  .c-heading {
     font-size: 36px;
   }
 }
 
 .rev-name {
-color: #23A6F0;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0.20000000298023224px;
+  color: #23A6F0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
 
 }
+
 .rev-title {
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0.20000000298023224px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
 }
+
 .freq-sec {
   margin-top: 7rem !important;
 }
+
 .freq-heading {
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 50px;
-letter-spacing: 0px;
-text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: center;
 }
+
 .freq-s {
   color: #E76F51;
 }
-.acco-item{
-  font-size: 16px;
+
+.accordion-item {
   border: 1px solid #D5E5FB !important;
 }
-.acco-item h2 button{
+
+.acco-item h2 button {
   font-size: 20px;
   font-weight: 500;
 }
+
+.faq-p {
+  color: #7E848C;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 @media (max-width:768px) {
-  .acco-group{
-    margin-top:30px;
+  .acco-group {
+    margin-top: 40px;
   }
 }
+
 .card-b {
   border: 1px solid #D5E5FB !important;
+}
+
+.cus-h {
+  color: #042041;
+  ;
 }
