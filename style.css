@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden !important;
+}
 header {
   background-color: #264653;
   width: 100%;
@@ -14,7 +17,7 @@ header {
 
 @media (max-width:768px) {
   .Heading {
-    font-size: 36px;
+    font-size: 35px;
   }
 }
 
@@ -112,7 +115,7 @@ line-height: 24px;
 letter-spacing: 0.20000000298023224px;
 }
 .freq-sec {
-  margin-top: 5rem;
+  margin-top: 7rem !important;
 }
 .freq-heading {
 font-size: 48px;
@@ -124,4 +127,20 @@ text-align: center;
 }
 .freq-s {
   color: #E76F51;
+}
+.acco-item{
+  font-size: 16px;
+  border: 1px solid #D5E5FB !important;
+}
+.acco-item h2 button{
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width:768px) {
+  .acco-group{
+    margin-top:30px;
+  }
+}
+.card-b {
+  border: 1px solid #D5E5FB !important;
 }
