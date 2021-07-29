@@ -124,7 +124,15 @@ header {
 }
 
 .freq-sec {
-  margin-top: 7rem !important;
+  margin-top: 8rem !important;
+  height: 630px;
+  width: auto;
+  
+}
+@media (max-width:768px) {
+  .freq-sec {
+    height:auto !important;
+  }
 }
 
 .freq-heading {
